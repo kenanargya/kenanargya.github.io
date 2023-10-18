@@ -1,0 +1,62 @@
+body {
+    background-color: #343a40;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .modern-card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .animated-button {
+    transition: all 0.3s;
+  }
+  
+  .animated-button:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+  }
+  
+  .forgot-password, .register {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .forgot-password:hover, .register:hover {
+    color: #0056b3;
+  }
+  
+  .or {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  /* Ganti warna latar belakang kolom "Sign In with Google" menjadi hijau */
+  .google-signin-button {
+    background-color:white; /* Ubah ke warna yang Anda inginkan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ganti warna teks pada tombol "Sign In with Google" menjadi putih */
+  .google-signin-button a {
+    color: black; /* Ubah ke warna teks yang Anda inginkan */
+  }
+  
+  /* Ganti warna latar belakang tombol ketika dihover */
+  .google-signin-button:hover {
+    background-color: #007bff; /* Warna hover yang Anda inginkan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  

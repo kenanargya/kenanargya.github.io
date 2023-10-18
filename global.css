@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --bold-26: Roboto;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --bold-26-size: 26px;
+  --regular-14-size: 14px;
+  --medium-36-size: 36px;
+  --font-size-5xl: 24px;
+  --medium-16-size: 16px;
+  --medium-12-size: 12px;
+  --regular-18-size: 18px;
+
+  /* Colors */
+  --colour-secondary-white-100-general: #fff;
+  --colour-logo-primary: #37447e;
+  --colour-main-blue-800: #111b47;
+  --colour-main-blue-300: #929ecc;
+  --colour-main-grey-400: #939ea4;
+  --colour-background-light-grey: #fbfbfd;
+  --colour-main-blue-900: #091133;
+  --colour-main-grey-600: #5d6970;
+  --colour-logo-primary1: #2245e3;
+  --colour-main-blue-500: #505f98;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+}
